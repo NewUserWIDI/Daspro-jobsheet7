@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tugas224 {
+public class Tugas225 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
@@ -29,6 +29,6 @@ public class Tugas224 {
         System.out.println("Total pembayaran: Rp " + total);
         sc.close();
     }
-} {
+} 
     
-}
+
