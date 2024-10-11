@@ -18,17 +18,9 @@ public class SiakadFor25 {
             if (nilai < terendah) {
                 terendah = nilai;
             }
-            if (nilai >= 60) {
-                jumlahMhsLulus++;
-            } else {
-                jumlahMhsTidakLulus++;
-            }
         }
         System.out.println("Nilai Tertinggi: " + tertinggi);
         System.out.println("Nilai Terendah: " + terendah);
-        System.out.println("Jumlah Mahasiswa Lulus: " + jumlahMhsLulus);
-        System.out.println("Jumlah Mahasiswa Tidak Lulus: " + jumlahMhsTidakLulus);
-
-        sc.close();
+    
     }
 }
