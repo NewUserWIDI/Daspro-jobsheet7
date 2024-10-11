@@ -15,7 +15,13 @@ public class SiakadWhile25 {
         if (nilai <0 || nilai > 100) {
             System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
             continue;
-       
+        }
+
+        if (nilai > 80 && nilai <= 100) {
+            System.out.println("Hasil nilai mahasiswa ke- " + (i + 1) + " adalah A");
+            if (nilai > 80 && nilai <= 100) {
+                System.out.println("Bagus, pertahankan nilainya!");
+            }
         }
         if (nilai > 80 && nilai <= 100) {
             System.out.println("Nilai Mahasiswa ke-" + (i + 1) + " adalah A");
